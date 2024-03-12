@@ -1,1 +1,3 @@
 # SmileDectection
+Another CNN project where I tinker around with data Augmentation and other optimization methods like *EarlyStopping, LROnPlateau, Checkpoints* etc. I took the famous happyhouse dataset which contains 600 training images and 150 testing images. I got an accuracy of around 96.67% and an AUC score of 99.9%. I have implemented *BatchNorm, Flatten and Dropout* here but L2 regularisation might help to improve the validation accuracy more. I have visualised the metrics with *TensorBoard*.
+I have also made a GUI of the model application as it was a fun improvement and helped me learn more on *TKinter*.
